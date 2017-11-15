@@ -1,0 +1,4 @@
+
+Suggested naming convention:
+
+	https://codurance.com/2014/12/13/naming-test-classes-and-methods/

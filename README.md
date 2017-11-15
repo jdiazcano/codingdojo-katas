@@ -1,34 +1,45 @@
 
-When you attend a Coding Dojo is good to prepare your IDE or prefered environment for running test.
+## Easy start
 
-You may download from this repo empty runnable projects in different languages.
-They only contain an empty test, and in some case an example.
+When you attend a Coding Dojo is good to prepare your IDE or prefered environment for writing and running tests.
 
-You can import them in your favorite IDE or running them in your command line. But do it in advance of the event to save time.
+If you don't know how to start you may want download from this repo, it contains a few projects with an empty test and an example that ment to be run after you import them in your IDE or from the console, so you can check your gear before we start. Do this in advance of the event to save time.
 
-Suggested reading about naming conventions in testing (Java oriented but may inspire you in other languages):
+You can clone this repository, import your prefered tecnology project in your prefered IDE or running them from the console.
 
-https://codurance.com/2014/12/13/naming-test-classes-and-methods/
+    $ git clone https://github.com/franferri/codingdojo-katas.git
 
-You can download this katainception projects ready to import doing:
+### Running in the console katainception-java, jdk and maven needed
+    $ cd katainception-python
+    $ mvn clean package -t katainception-java
 
-$ git clone https://github.com/franferri/codingdojo-katas.git
+### Running in the console katainception-python, python needed
+    $ cd katainception-python
+**Running a single test module:**
+    $ python -m unittest test.test_antigravity
+**Running a single test case**
+    $ python -m unittest test.test_antigravity.GravityTestCase
+**Running a single test method**
+    $ python -m unittest test.test_antigravity.GravityTestCase.test_method
+**Running all the tests**
+    $ python -m unittest discover
 
-You can import your project in your prefered IDE or running them from the console.
+### Running in the console Kotlin
 
-Running in the console katainception-java, jdk and maven needed
-* mvn clean package -t katainception-java
+	$ whatever
 
-Running in the console katainception-python, python needed
+## Suggested readings
 
-$ cd katainception-python
-Running a single test module:
-$ python -m unittest test.test_antigravity
-Running a single test case:
-$ python -m unittest test.test_antigravity.GravityTestCase
-Running a single test method:
-$ python -m unittest test.test_antigravity.GravityTestCase.test_method
-Running all the tests
-$ python -m unittest discover
+*TDD*
+* You must write a failing test before you write any production code.
+* You must not write more of a test than is sufficient to fail, or fail to compile.
+* You must not write more production code than is sufficient to make the currently failing test pass.
+* You should follow the circle Red - Green - Refactoring:
+** Red - Create a failing test
+** Green - Write enough code to make the test pass
+** Refactor - Clean up your code and your tests (don't forget that your tests are code too)
 
-Running in the console Kotlin
+*Naming your tests*
+* https://codurance.com/2014/12/13/naming-test-classes-and-methods/
+
+Happy growing :D 

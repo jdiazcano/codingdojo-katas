@@ -16,21 +16,13 @@ You can clone this repository, import your prefered tecnology project in your pr
 ### Python example
 
     $ cd katainception-python
-
-**Running a single test module:**
-
+    # Running a single test module
     $ python -m unittest test.test_antigravity
-
-**Running a single test case**
-
+    # Running a single test case
     $ python -m unittest test.test_antigravity.GravityTestCase
-
-**Running a single test method**
-
+    # Running a single test method
     $ python -m unittest test.test_antigravity.GravityTestCase.test_method
-
-**Running all the tests**
-
+    # Running all the tests
     $ python -m unittest discover
 
 ### Kotlin example
@@ -44,9 +36,9 @@ You can clone this repository, import your prefered tecnology project in your pr
 * You must not write more of a test than is sufficient to fail, or fail to compile.
 * You must not write more production code than is sufficient to make the currently failing test pass.
 * You should follow the circle Red - Green - Refactoring:
-** Red - Create a failing test
-** Green - Write enough code to make the test pass
-** Refactor - Clean up your code and your tests (don't forget that your tests are code too)
+ * Red - Create a failing test
+ * Green - Write enough code to make the test pass
+ * Refactor - Clean up your code and your tests (don't forget that your tests are code too)
 * http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 
 *Naming your tests*

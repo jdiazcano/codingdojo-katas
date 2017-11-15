@@ -9,22 +9,31 @@ You can clone this repository, import your prefered tecnology project in your pr
 
     $ git clone https://github.com/franferri/codingdojo-katas.git
 
-### Running in the console katainception-java, jdk and maven needed
+### Java example (maven needed)
     $ cd katainception-python
     $ mvn clean package -t katainception-java
 
-### Running in the console katainception-python, python needed
+### Python example
+
     $ cd katainception-python
+
 **Running a single test module:**
+
     $ python -m unittest test.test_antigravity
+
 **Running a single test case**
+
     $ python -m unittest test.test_antigravity.GravityTestCase
+
 **Running a single test method**
+
     $ python -m unittest test.test_antigravity.GravityTestCase.test_method
+
 **Running all the tests**
+
     $ python -m unittest discover
 
-### Running in the console Kotlin
+### Kotlin example
 
 	$ whatever
 

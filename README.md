@@ -28,7 +28,11 @@ You can clone this repository, import your prefered tecnology project in your pr
 
 ### Suggested readings
 
-**TDD**
+**Creating your first test**
+![Test in 5 steps](https://github.com/franferri/codingdojo-katas/blob/master/images/test_in_5_steps.jpg)
+Suggested reading: https://codurance.com/2014/12/13/naming-test-classes-and-methods/
+
+**Use TDD**
 * You must write a failing test before you write any production code.
 * You must not write more of a test than is sufficient to fail, or fail to compile.
 * You must not write more production code than is sufficient to make the currently failing test pass.
@@ -36,13 +40,7 @@ You can clone this repository, import your prefered tecnology project in your pr
   * Red - Create a failing test
   * Green - Write enough code to make the test pass
   * Refactor - Clean up your code and your tests (don't forget that your tests are code too)
-* http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
-
 ![Red Green Refactor](https://github.com/franferri/codingdojo-katas/blob/master/images/red_green_refactor.jpg)
-
-**Naming your tests**
-* https://codurance.com/2014/12/13/naming-test-classes-and-methods/
-
-![Test in 5 steps](https://github.com/franferri/codingdojo-katas/blob/master/images/test_in_5_steps.jpg)
+Suggested reading: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 
 **Happy growing :D**

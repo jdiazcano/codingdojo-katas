@@ -38,11 +38,11 @@ You can clone this repository, import your prefered tecnology project in your pr
   * Refactor - Clean up your code and your tests (don't forget that your tests are code too)
 * http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 
-![Red Green Refactor](https://github.com/franferri/codingdojo-katas/images/red_green_refactor.jpg)
+![Red Green Refactor](https://github.com/franferri/codingdojo-katas/blob/master/images/red_green_refactor.jpg)
 
 **Naming your tests**
 * https://codurance.com/2014/12/13/naming-test-classes-and-methods/
 
-![Test in 5 steps](https://github.com/franferri/codingdojo-katas/images/test_in_5_steps.jpg)
+![Test in 5 steps](https://github.com/franferri/codingdojo-katas/blob/master/images/test_in_5_steps.jpg)
 
 **Happy growing :D**

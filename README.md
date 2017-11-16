@@ -30,7 +30,7 @@ You can clone this repository, import your prefered tecnology project in your pr
 
 **Creating your first test**
 
-![Test in 5 steps](https://github.com/franferri/codingdojo-katas/blob/master/images/test_in_5_steps.jpeg)
+![Test in 5 steps](https://github.com/franferri/codingdojo-katas/blob/master/images/test_in_5_steps.jpg)
 
 Suggested reading: https://codurance.com/2014/12/13/naming-test-classes-and-methods/
 

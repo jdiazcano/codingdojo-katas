@@ -10,8 +10,8 @@ You can clone this repository, import your prefered tecnology project in your pr
     $ git clone https://github.com/franferri/codingdojo-katas.git
 
 #### Java example (maven needed)
-    $ cd katainception-python
-    $ mvn clean package -t katainception-java
+    $ cd katainception-java
+    $ mvn clean test
 
 #### Python example
 
@@ -23,7 +23,8 @@ You can clone this repository, import your prefered tecnology project in your pr
 
 #### Kotlin example
 
-	$ whatever
+	$ cd katainception-python
+	whatever
 
 ### Suggested readings
 
